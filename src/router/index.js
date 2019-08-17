@@ -20,11 +20,6 @@ export default new Router({
       },
     },
     {
-      path: '/study/intro',
-      name: StudyIntroduction,
-      component: StudyIntroduction,
-    },
-    {
       path: '/activities/:id',
       name: 'Home',
       component: Home,
